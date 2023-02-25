@@ -1,0 +1,59 @@
+<html>
+    <title>
+        Collage Web Site
+    </title>
+    <script>
+    </script>
+    <body>
+        <link href="mystyle.css" rel="stylesheet">
+        <div class="mainpage">
+            <div class="navbar">
+                    <ul>
+                    <li><a href="coursera.com" ><button class="navbutton">Hello</button></a></li>
+                    <li><a href="coursera.com" ><button class="navbutton">Hello</button></a></li>
+                    <li><a href="coursera.com"><button class="navbutton">Hello</button></a></li>
+                    <li><a href="coursera.com"><button class="navbutton">Hello</button></a></li>
+                    </ul>
+            </div>
+        </div>
+        <div id="main" class="testing">
+            welcome to first interaction.
+        </div>
+        <div class="testing">
+            hey I'm also 
+            <input type="text" name="name" id="name">
+            <button onclick="greet()">Greet</button>
+        </div>
+        <div class="greet">
+        </div>
+    </body>
+    <script type="text/javascript">
+        //Functions
+        //alert("Error");
+        //console.log("This is the first javascript");
+        //document.write("<h1>This is from javascripts</h1>");
+        //prompt("Enter the name","Siddhant Dhanaji Kadam");
+        //confirm("Do you want to log in");
+        // var name;
+        // name="Siddhant Dhanaji Kadam";
+        // alert(name);
+        //Document object method
+        //document.getElementById("main").innerHTML="<h1>Welcome to javascripts</h1>";
+        //console.log(x);
+        // var x = document.getElementsByClassName("testing")[1].innerHTML;
+        // alert(x);
+        // document.getElementsByClassName("testing")[0].innerHTML="<h1>so first div is here</h1>";
+        // document.getElementsByClassName("testing")[1].innerHTML="<h1>so 2nd div is here</h1>";
+        //string con catnation
+        // var x="hello";
+        // var y="Everyone";
+        // var a="there";
+        // var z=x+y+a;
+        // alert(z);
+        function greet() {
+            var name=document.getElementById("name").value;
+            var string="Hello"+name;
+            document.getElementsByClassName("greet")[0].innerHTML=string;
+        }
+    </script>
+</html>

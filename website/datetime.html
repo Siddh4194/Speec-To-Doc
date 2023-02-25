@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="res">
+
+    </h1>
+    <button onclick="getDate()">Time</button>    
+    <button onclick="year()">YEAR</button>    
+    <button onclick="month()">MONTH</button>    
+</body>
+<script >
+    var Date=new Date();
+    function getDate(){
+        document.getElementById('res').innerText = Date;
+    }
+    function year(){
+        document.getElementById('res').innerText = Date.getFullYear();
+    }
+    function month(){
+        var months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
+        document.getElementById('res').innerText = months[Date.getMonth()];
+    }
+</script>
+</html>

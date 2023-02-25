@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        height: 400px;
+        width: 400px;
+        background-color: yellow;
+        position: relative;
+        margin-top: 5px;
+    }
+    #res{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        background-color: red;
+    }
+    #res1{
+        display: flex;
+        float: left;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        background-color: red;
+    }
+</style>
+<body>
+    <button onclick="move()">MOVE</button>
+    <div class="main">
+        <div id="res">
+
+        </div>
+        <div id="res1">
+
+        </div>
+    </div>
+</body>
+<script>
+    function move(){
+        var object=document.getElementById("res");
+        var poe=0;
+        var anim=setInterval(animate,5);
+        function animate() {
+            if(poe>=350){
+                clearInterval(anim);
+            }
+            poe++;
+            object.style.top=poe+"px";
+            object.style.left=poe+"px";
+        }
+    }
+</script>
+</html>

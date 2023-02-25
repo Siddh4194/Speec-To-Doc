@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<style>
+    .blue{
+        color: blue;
+    }
+    .red{
+        color: red;
+    }
+</style>
+<body>
+    <div class="red" id="give">
+        JavaScript Is Aussome
+    </div>
+    <button onclick="Changeit()">Change</button>
+    <input type="password" name="" id="password">
+    <button onclick="showpassword(this )">Show password</button>
+</body>
+<script>
+    var atbu=document.getElementById('give');
+    function Changeit() {
+        var cls=atbu.getAttribute('class');
+        if(cls=='red'){
+            atbu.setAttribute('class','blue');
+        }
+        else{
+            atbu.setAttribute('class','red');
+        }
+    }
+    var password=document.getElementById('password');
+    function showpassword(ele){
+        var atr=password.getAttribute('type');
+        if(atr=='password'){
+            password.setAttribute('type','text');
+            ele.innerText="Hide Password";
+        }
+        else{
+            password.setAttribute('type','password');
+            ele.innerText="Show Password";
+        }
+    }
+</script>
+</html>

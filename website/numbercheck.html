@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    please enter the no:<br>
+    <input type="text" name="" onkeyup="vel(this)">
+    <div id="res"></div>
+</body>
+<script>
+    document.getElementById("res").style.color='red';
+    function vel(elem){
+        if(isNaN(elem.value)){
+            document.getElementById('res').innerText="Please enter the no";
+        }
+        else{
+            document.getElementById('res').innerText="";
+        }
+        if(elem.value.length>=10){
+            document.getElementById("res").innerText="No should be less than 10 Digits";
+        }
+        else{
+            document.getElementById("res").innerText="";
+        }
+    }
+</script>
+</html>

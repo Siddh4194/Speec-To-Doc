@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        
+    </div>
+    <div id="counter"></div>
+    <button id="btn">Click Me</button>
+    <button onclick="stop()"></button>
+</body>
+<script>
+    var i=0;
+    document.getElementById("btn").addEventListener("click",counter);
+    document.getElementById("btn").addEventListener("mouseenter",colorchange);
+    function colorchange(){
+        document.getElementById("counter").style.color="red";
+    }
+    function counter(){
+        document.getElementById("counter").innerText=i;
+        i++;
+    }
+    function stop(){
+        document.getElementById("btn").removeEventListener("click",counter);
+    }
+</script>
+</html>
