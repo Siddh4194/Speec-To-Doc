@@ -4,7 +4,7 @@ SPEEK TO DOC is a voice-activated document conversion application that allows us
 
 ## ScreenShot
 
-![Home Page Image](/images/Screenshot(258).png)
+![Home Page Image](images/Screenshot(258).png)
 
 
 
