@@ -2,6 +2,12 @@
 
 SPEEK TO DOC is a voice-activated document conversion application that allows users to convert spoken words into PDF or Word files. The project is built using React.js, Node.js, Express.js, MongoDB, and Passport.js.
 
+## ScreenShot
+
+![Alt text](images/your_image.jpg)
+
+
+
 ## Features
 
 - **Voice-Activated Conversion:** Easily convert spoken words to PDF or Word files using voice commands.
