@@ -8,7 +8,7 @@ SPEEK TO DOC is a voice-activated document conversion application that allows us
 
 ## Small demo for the speech to text
 
-[![Video Title](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7138123872188432384?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7138123872188432384%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29&originTrackingId=DXFpsf0lQUaKqMI64dRRWw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BPfl8ic4zQma9fIRyifoOSQ%3D%3D)
+[![Demo sample](https://media.licdn.com/dms/image/D5622AQGc08Pw_Jc60g/feedshare-shrink_480/0/1702314162896?e=1706140800&v=beta&t=AhM1ZXndIPNCf6Vte0DRAXmecu_ZFCFcrlLimjvjtDo)](https://www.linkedin.com/feed/update/urn:li:activity:7138123872188432384?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7138123872188432384%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29&originTrackingId=DXFpsf0lQUaKqMI64dRRWw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BPfl8ic4zQma9fIRyifoOSQ%3D%3D)
 
 
 
