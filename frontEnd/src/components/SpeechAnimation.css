@@ -1,0 +1,455 @@
+.speech-animation {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .speech-animation .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  .speech-animation .circle:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .speech-animation .circle:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .speech-animation .circle:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .speech-animation .circle:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  
+  .speech-animation .circle:nth-child(5) {
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+  
+    50% {
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+  
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  
+
+/* LOG IN */
+.logIN{
+background: rgb(130,14,246);
+background: -moz-linear-gradient(3deg, rgba(130,14,246,1) 17%, rgba(3,196,251,1) 100%);
+background: -webkit-linear-gradient(3deg, rgba(130,14,246,1) 17%, rgba(3,196,251,1) 100%);
+background: linear-gradient(3deg, rgba(130,14,246,1) 17%, rgba(3,196,251,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#820ef6",endColorstr="#03c4fb",GradientType=1);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logDiv{
+  height: 65%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2em;
+  background: rgba(255, 255, 255, 0.2); /* Background color with opacity for the glass effect */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  padding: 20px;
+  backdrop-filter: blur(1px); /* Apply a blur effect to the background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Box shadow for a subtle lift effect */
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.logDiv input{
+  width: 70%;
+  margin: 1em;
+  height: 2em;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.logDiv input:focus{
+  outline:none;
+}
+
+.logDiv input::placeholder{
+  color: aliceblue  ;
+}
+
+.input-container{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container button{
+  border: none;
+  background-color: rgb(51, 181, 233);
+  border-radius: .4em;
+  padding: .5em;
+  width: 30%;
+  
+}
+
+
+/* Brekpoint 1 */
+
+@media(max-width:768px) {
+  .logDiv{
+    height: 65%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    /* justify-content: center; */
+    align-items: center;
+  }
+}
+
+
+.logDiv h5{
+font-size: 1em;
+}
+
+.logDiv h6{
+  margin-top: 1.7em !important;
+  font-size: .7em;
+  }
+
+.logDiv button{
+  border: none;
+  background-color: rgb(51, 181, 233);
+  border-radius: .4em;
+  padding: .5em;
+}
+
+
+/* formal letter design */
+
+.letter{
+  display: flex;
+  flex-direction: column;
+}
+.rightCorner{
+  align-self: flex-end;
+  min-width: 30%;
+  min-width:fit-content;
+}
+
+
+/* transcript pop up design */
+
+.transcript{
+  position: absolute;
+  bottom: 1em;
+  width: 20%;
+  height: 10%;
+  border-radius: .3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(31, 178, 215, 0.78);
+  border: none;
+  overflow: hidden;
+}
+
+
+
+/* Home Page */
+.home{
+  height: 100vh;
+  width: 100vw;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 53%, #FFCC70 100%);
+}
+
+.headlines{
+  padding: 2em;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.main_heading{
+  font-family: 'Borel', cursive;
+}
+
+.main_heading h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.span_Heading{
+  font-size: .3em;
+  font-size: sans-serif;
+  /* border: 2px solid rgba(250, 250, 250, 0.401); */
+  border-radius: .5em;
+  padding: .4em;
+}
+
+.main_desc{
+  font-family: 'Patrick Hand SC', cursive;
+  padding: 1em;
+  border: 2px solid rgba(250, 250, 250, 0.401);
+  border-radius: 1em;
+}
+
+.main_para p{
+  padding: 1em;
+  font-size: .9em;
+  line-height: 2;
+  text-align: justify;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+.main_commands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.main_commands .content{
+  background: rgba(255, 255, 255, 0.2); /* Adjust the alpha value for transparency */
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px) brightness(150%);
+  height: max-content;
+  height: max-content;
+  width: 70%;
+  font-size: clamp(1em,1vh,3em);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_commands .content h4{
+      font-size: clamp(2em,2vh,6em);
+      font-family: 'Patrick Hand SC', cursive;
+}
+
+/* voice animation */
+.voice_animation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  height: 15vh;
+  margin: 0;
+  color: #fff;
+}
+ /* voice bars */
+.voice-bars {
+  display: flex;
+  /* align-items: flex-end; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 150px;
+}
+
+.voice-bar {
+  width: 15px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-left: 1px;
+  border-right: 1px;
+  background-color: #cfc9c93a;
+  margin: 0 5px;
+  animation: voiceAnimation 1s infinite alternate;
+}
+
+.voice-bar:nth-child(1) {
+  animation-delay: 0.3s; /* Adjust the delay for the second bar */
+}
+.voice-bar:nth-child(2) {
+  animation-delay: 0.6s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(3) {
+  animation-delay: 0.7s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(4) {
+  animation-delay: 0.4s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(5) {
+  animation-delay: 0.5s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(6) {
+  animation-delay: 0.2s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(7) {
+  animation-delay: 0.3s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(8) {
+  animation-delay: 0.13s; /* Adjust the delay for the second bar */
+}
+.voice-bar:nth-child(9) {
+  animation-delay: 0.61s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(10) {
+  animation-delay: 0.34s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(11) {
+  animation-delay: 0.39s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(12) {
+  animation-delay: 0.11s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(13) {
+  animation-delay: 0.2s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(14) {
+  animation-delay: 0.9s; /* Adjust the delay for the second bar */
+}
+.voice-bar:nth-child(15) {
+  animation-delay: 0.1s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(16) {
+  animation-delay: 0.2s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(17) {
+  animation-delay: 0.3s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(18) {
+  animation-delay: 0.7s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(19) {
+  animation-delay: 0.6s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(20) {
+  animation-delay: 0.20s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(21) {
+  animation-delay: 0.8s; /* Adjust the delay for the second bar */
+}
+.voice-bar:nth-child(22) {
+  animation-delay: 0.4s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(23) {
+  animation-delay: 0.2s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(24) {
+  animation-delay: 0.7s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(25) {
+  animation-delay: 0.1s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(26) {
+  animation-delay: 0.9s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(27) {
+  animation-delay: 0.5  s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(28) {
+  animation-delay: 0.3s; /* Adjust the delay for the third bar */
+}
+.voice-bar:nth-child(29) {
+  animation-delay: 0.5s; /* Adjust the delay for the third bar */
+}
+
+@keyframes voiceAnimation {
+  0% {
+    height: 20px;
+  }
+  100% {
+    height: 50px;
+  }
+}
+
+.main-buttons{
+  padding: 1em;
+}
+.main-buttons button{
+  background-color: #fbfbfb23;
+  border: 1px solid #cac7c7;
+  padding: .5em;
+}
+
+.main-buttons button:nth-child(1){
+  background-color: #fbfbfb86;
+  border-radius: .4em 0 0 .4em;
+}
+.main-buttons button:nth-child(2){
+  border-radius: 0 .4em .4em 0;
+}
+
+
+
+/* home page for the mobile */
+@media (max-width: 768px) {
+  .headlines{
+    padding: 2em;
+    height: max-content;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_commands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    min-height: 30vh;
+  }
+  .main_commands .content{
+    background: rgba(255, 255, 255, 0.2); /* Adjust the alpha value for transparency */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px) brightness(150%);
+    height: max-content;
+    height: max-content;
+    width: 70%;
+    font-size: clamp(.5em,1vh,2em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_para p{
+    padding: 1em;
+    font-size: .8em;
+    line-height: 2;
+    text-align: justify;
+    font-family: 'Patrick Hand SC', cursive;
+  }
+  .main_desc h5{
+    font-size: .8em;
+  }
+  .main-buttons{
+    padding: .6em;
+  }
+}
