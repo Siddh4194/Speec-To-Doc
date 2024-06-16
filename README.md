@@ -31,6 +31,7 @@ SPEEK TO DOC is a voice-activated document conversion application that allows us
 - Express.js
 - MongoDB
 - Passport.js
+- Gemini Api
 
 ## Getting Started
 
@@ -40,6 +41,11 @@ Make sure you have the following installed:
 
 - Node.js
 - MongoDB
+- Gemini API Key
+# Gemini Api Key
+- for the api key go to the below link
+```bash[
+https://ai.google.dev/
 
 ### Installation
 
