@@ -46,7 +46,7 @@ Make sure you have the following installed:
 - for the api key go to the below link
 ```bash[
 https://ai.google.dev/
-
+```
 ### Installation
 
 1. Clone the repository:
