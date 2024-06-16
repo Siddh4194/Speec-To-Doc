@@ -4,7 +4,7 @@ SPEEK TO DOC is a voice-activated document conversion application that allows us
 
 ## ScreenShot
 
-![Home Page Image](https://media.licdn.com/dms/image/D5622AQGc08Pw_Jc60g/feedshare-shrink_480/0/1702314162896?e=1706140800&v=beta&t=AhM1ZXndIPNCf6Vte0DRAXmecu_ZFCFcrlLimjvjtDo)
+![Home Page Image](https://postimg.cc/3Wc6QKYF)
 
 ## Small demo for the speech to text
 
