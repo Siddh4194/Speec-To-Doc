@@ -44,9 +44,9 @@ Make sure you have the following installed:
 - Gemini API Key
 # Gemini Api Key
 - for the api key go to the below link
-```bash[
-https://ai.google.dev/
-```
+  
+[Google AI](https://ai.google.dev/)
+
 ### Installation
 
 1. Clone the repository:
