@@ -10,7 +10,9 @@ SPEEK TO DOC is a voice-activated document conversion application that allows us
 ## Letter Creation Using The AI
 [![letter-Creation.png](https://i.postimg.cc/8kh1MxzJ/letter-Creation.png)](https://postimg.cc/6TpJNjRt)
 
-
+## Content Creation
+- content creation for the Users Who Wants to record the voice in text
+  [![Content-Creation.png](https://i.postimg.cc/t4rR7PCB/Content-Creation.png)](https://postimg.cc/PCwnRCDD)
 
 ## Features
 
