@@ -21,7 +21,8 @@ SPEEK TO DOC is a voice-activated document conversion application that allows us
 
 - **Voice-Activated Conversion:** Easily convert spoken words to PDF or Word files using voice commands.
 - **Enhanced Search Functionality:** Utilizes Data Structures and Algorithms (DSA) to optimize format recommendations and improve efficiency.
-- **Customizable Document Styles:** Tailor your document styles to ensure a personalized user experience.
+- **Create What Ever Letter You Want:** Utilized the AI to create the letter for the user as per there data.
+- **Content Creation:** Content creation is feature which record the voice of the user and give the text of that user and also given a feture if you wanted to correct the sentenses of that content id user want that.
 
 ## Technologies Used
 
